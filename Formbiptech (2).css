@@ -1,0 +1,43 @@
+* {
+  background-color: #5271ff;
+  color: white;
+  font-family: cursive;
+}
+
+.containerContact {
+  display: flex;
+  justify-content: space-around;
+}
+.containerContact .contact {
+  text-align: center;
+}
+
+.maps {
+  text-align: center;
+}
+.maps span {
+  font-size: large;
+  text-decoration: underline;
+}
+
+label {
+  display: flex;
+  float: left;
+}
+
+input {
+  background-color: beige;
+  color: black;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .containerContact {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .containerContact .maps {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Formbiptech (2).css.map */

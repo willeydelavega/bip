@@ -1,0 +1,59 @@
+$firstcolor: #5271ff;
+$coltexte : white;
+
+*{
+    background-color: $firstcolor;
+    color: $coltexte ;
+    font-family: cursive;
+
+}
+
+.containerContact{
+    display: flex;
+    justify-content: space-around;   
+    .contact{
+        text-align: center; 
+        // width: 35%;  
+    }
+}
+.maps{
+    text-align: center;
+    span{
+        font-size: large;
+        text-decoration: underline;
+    }
+}
+
+
+label
+    {
+        display:flex; 
+        // width: 500px; /* Attention : prenez une largeur suffisamment grande */
+        float:left;
+        
+        
+    }
+input {
+        background-color: beige;
+        color: black;
+        width: 100%;
+}
+
+@media screen and (max-width:1200px){
+    .containerContact{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        .maps{
+            width: 100%;
+        }
+    }
+   
+}
+
+    
+
+
+
+
+
